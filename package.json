@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "turnero-backend",
+  "version": "1.0.0",
+  "description": "Api de Gestion",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -e js, handlebars, html ."
+  },
+  "author": "FerNenuMendez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10",
+    "winston": "^3.17.0"
+  }
+}

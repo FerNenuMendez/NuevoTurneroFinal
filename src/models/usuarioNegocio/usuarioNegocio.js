@@ -1,4 +1,5 @@
 import { MODO_EJECUCION } from "../../config/config.js"
+import UsuarioNegocio from "./mongoose/usuarioNegocio.model.mongoose.js"
 import logger from '../../middlewares/logger.js'
 
 const RUTA_USER_JSON = './db/usuarioFiles/usuarioFiles.json'
@@ -8,7 +9,7 @@ let daoUsuarioNegocio;
 if (MODO_EJECUCION === "online") {
     //SINGLETON
     if (!daoUsuarioNegocio) {
-        daoUsuarioNegocio = new UsuarioNegocioDaoMongoose
+        daoUsuarioNegocio = new UsuarioNegocio
         logger.info('Persistiendo Usuarios en: MongoDB')
     }
 } else {

@@ -1,0 +1,10 @@
+2025-09-09 19:07:44 [31merror[39m: ReferenceError: UsuarioNegocioDaoMongoose is not defined
+    at file:///C:/Users/FerM/Desktop/New%20turnero%20back/src/models/usuarioNegocio/usuarioNegocio.js:11:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-09-09 19:07:51 [31merror[39m: ReferenceError: UsuarioNegocioDaoMongoose is not defined
+    at file:///C:/Users/FerM/Desktop/New%20turnero%20back/src/models/usuarioNegocio/usuarioNegocio.js:11:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)

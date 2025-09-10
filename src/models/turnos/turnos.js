@@ -1,12 +1,21 @@
-import mongoose from "mongoose";
+import { MODO_EJECUCION } from "../../config/config.js"
+import Turno from "./mongoose/turno.model.mongoose.js"
+import logger from '../../middlewares/logger.js'
 
-const turnoSchema = new mongoose.Schema({
-    negocio: { type: mongoose.Schema.Types.ObjectId, ref: "UsuarioNegocio" },
-    servicio: { type: mongoose.Schema.Types.ObjectId, ref: "Servicio" },
-    clienteNombre: { type: String, required: true },
-    clienteEmail: { type: String, required: true },
-    fecha: { type: Date, required: true },
-    estado: { type: String, enum: ["pendiente", "confirmado", "cancelado"], default: "pendiente" }
-}, { timestamps: true });
+const RUTA_TURNO_JSON = './db/turnoFiles/turnoFiles.json'
 
-export default mongoose.model("Turno", turnoSchema);
+let daoTurno;
+
+if (MODO_EJECUCION === "online") {
+    //SINGLETON
+    if (!daoTurno) {
+        daoTurno = new Turno
+        logger.info('Persistiendo Turnos en: MongoDB')
+    }
+} else {
+    //  ARMAR SISTEMA DE ARCHIVOS
+    logger.info('Persistiendo Turnos en: sistema de archivos')
+}
+export function getdaoTurno() {
+    return daoTurno
+}

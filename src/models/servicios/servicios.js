@@ -1,10 +1,22 @@
-import mongoose from "mongoose";
+import { MODO_EJECUCION } from "../../config/config.js"
+import Servicio from "./mongoose/servicio.model.mongoose.js"
+import logger from '../../middlewares/logger.js'
 
-const servicioSchema = new mongoose.Schema({
-    negocio: { type: mongoose.Schema.Types.ObjectId, ref: "UsuarioNegocio" },
-    nombre: { type: String, required: true },
-    duracionMinutos: { type: Number, required: true },
-    precio: { type: Number, required: true }
-}, { timestamps: true });
+const RUTA_SERVICIO_JSON = './db/servicioFiles/servicioFiles.json'
 
-export default mongoose.model("Servicio", servicioSchema);
+let daoServicio;
+
+
+if (MODO_EJECUCION === "online") {
+    //SINGLETON
+    if (!daoServicio) {
+        daoServicio = new Servicio
+        logger.info('Persistiendo Servicios en: MongoDB')
+    }
+} else {
+    //  ARMAR SISTEMA DE ARCHIVOS
+    logger.info('Persistiendo Servicios en: sistema de archivos')
+}
+export function getdaoServicio() {
+    return daoServicio
+}

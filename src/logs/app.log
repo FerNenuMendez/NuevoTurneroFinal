@@ -164,3 +164,152 @@
 2025-09-10 23:20:35 [32minfo[39m: Base de datos conectada a MongoDB
 2025-09-10 23:20:46 [32minfo[39m: Usuario Negocio Logueado:
 2025-09-10 23:20:46 [32minfo[39m: {"_id":"68c22a5cf94cc6a899243bab","nombre":"Fernando ","email":"nenuco@donosor.com","passwordHash":"$2b$10$M/hek8iotAabD3CCRCps/eOXmY1XRaEPSzSTDDhpEUE5Iwax9cYPu","direccion":"laalala 1212","telefono":"1140845151","servicios":[],"extra":[],"createdAt":"2025-09-11T01:48:12.388Z","updatedAt":"2025-09-11T01:48:12.388Z","__v":0}
+2025-09-10 23:25:20 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:25:20 [32minfo[39m: Configuracion Lista
+2025-09-10 23:25:21 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:25:23 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:27:25 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:27:25 [32minfo[39m: Configuracion Lista
+2025-09-10 23:27:26 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:27:28 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:30:36 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:30:36 [32minfo[39m: Configuracion Lista
+2025-09-10 23:30:39 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:30:40 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:31:03 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:31:03 [32minfo[39m: Configuracion Lista
+2025-09-10 23:31:05 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:31:06 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:31:37 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:31:37 [32minfo[39m: Configuracion Lista
+2025-09-10 23:31:38 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:31:39 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:32:43 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:32:43 [32minfo[39m: Configuracion Lista
+2025-09-10 23:32:44 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:32:45 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:33:48 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:33:48 [32minfo[39m: Configuracion Lista
+2025-09-10 23:33:49 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:33:50 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:33:57 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:33:57 [32minfo[39m: Configuracion Lista
+2025-09-10 23:33:59 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:34:00 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:38:34 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:38:34 [32minfo[39m: Configuracion Lista
+2025-09-10 23:38:35 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:38:38 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:40:11 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:40:11 [32minfo[39m: Configuracion Lista
+2025-09-10 23:40:12 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:40:13 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:43:31 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:43:31 [32minfo[39m: Configuracion Lista
+2025-09-10 23:43:32 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:43:34 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:45:11 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:45:11 [32minfo[39m: Configuracion Lista
+2025-09-10 23:45:13 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:45:15 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:46:27 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:46:27 [32minfo[39m: Configuracion Lista
+2025-09-10 23:46:28 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:46:29 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:53:48 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:53:48 [32minfo[39m: Configuracion Lista
+2025-09-10 23:53:50 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:53:52 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:54:17 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:54:17 [32minfo[39m: Configuracion Lista
+2025-09-10 23:54:19 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:54:20 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:55:50 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:55:50 [32minfo[39m: Configuracion Lista
+2025-09-10 23:55:51 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:55:52 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:56:22 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:56:22 [32minfo[39m: Configuracion Lista
+2025-09-10 23:56:23 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:56:24 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:56:39 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:56:39 [32minfo[39m: Configuracion Lista
+2025-09-10 23:56:40 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:56:41 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:58:09 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:58:09 [32minfo[39m: Configuracion Lista
+2025-09-10 23:58:11 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:58:13 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:59:14 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:59:14 [32minfo[39m: Configuracion Lista
+2025-09-10 23:59:16 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:59:17 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-10 23:59:22 [32minfo[39m: Cargando configuracion:
+2025-09-10 23:59:22 [32minfo[39m: Configuracion Lista
+2025-09-10 23:59:23 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-10 23:59:24 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:00:32 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:00:32 [32minfo[39m: Configuracion Lista
+2025-09-11 00:00:33 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:00:35 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:00:39 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:00:39 [32minfo[39m: Configuracion Lista
+2025-09-11 00:00:40 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:00:41 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:01:42 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:01:42 [32minfo[39m: Configuracion Lista
+2025-09-11 00:01:44 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:01:45 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:01:53 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:01:53 [32minfo[39m: Configuracion Lista
+2025-09-11 00:01:55 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:01:57 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:02:48 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:02:48 [32minfo[39m: Configuracion Lista
+2025-09-11 00:02:49 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:02:50 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:03:07 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:03:07 [32minfo[39m: Configuracion Lista
+2025-09-11 00:03:09 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:03:10 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:03:14 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:03:14 [32minfo[39m: Configuracion Lista
+2025-09-11 00:03:15 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:03:16 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:03:23 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:03:23 [32minfo[39m: Configuracion Lista
+2025-09-11 00:03:24 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:03:25 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:03:50 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:03:50 [32minfo[39m: Configuracion Lista
+2025-09-11 00:03:51 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:03:52 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:03:54 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:03:54 [32minfo[39m: Configuracion Lista
+2025-09-11 00:03:55 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:03:57 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:04:16 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:04:16 [32minfo[39m: Configuracion Lista
+2025-09-11 00:04:18 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:04:19 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:14:42 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:14:42 [32minfo[39m: Configuracion Lista
+2025-09-11 00:14:44 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:14:45 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:14:54 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:14:54 [32minfo[39m: Configuracion Lista
+2025-09-11 00:14:55 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:14:56 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:15:41 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:15:41 [32minfo[39m: Configuracion Lista
+2025-09-11 00:15:43 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:15:44 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:15:53 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:15:53 [32minfo[39m: Configuracion Lista
+2025-09-11 00:15:54 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:15:55 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-11 00:23:30 [32minfo[39m: Cargando configuracion:
+2025-09-11 00:23:30 [32minfo[39m: Configuracion Lista
+2025-09-11 00:23:31 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-11 00:23:31 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-11 00:23:33 [32minfo[39m: Base de datos conectada a MongoDB

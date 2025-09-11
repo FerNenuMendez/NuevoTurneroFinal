@@ -46,7 +46,10 @@ class UsuarioNegocioService {
             const esValido = await bcrypt.compare(password, usuario.passwordHash);
             if (esValido) {
                 const token = jwt.sign(
-                    { id: usuario._id },
+                    {
+                        id: usuario._id,
+                        email: usuario.email, nombre: usuario.nombre
+                    },
                     JWT_P_K,
                     { expiresIn: '1h' }
                 );
@@ -58,7 +61,6 @@ class UsuarioNegocioService {
             throw error;
         }
     }
-
 
 }
 

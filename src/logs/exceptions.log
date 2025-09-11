@@ -8,3 +8,8 @@
     at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-09-10 22:50:38 [31merror[39m: ReferenceError: loginUsuarioNegocioController is not defined
+    at file:///C:/Users/FerM/Desktop/New%20turnero%20back/src/routes/usuarioNegocio/usuarioNegocio.router.js:11:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)

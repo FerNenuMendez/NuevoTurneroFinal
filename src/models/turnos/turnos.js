@@ -9,7 +9,7 @@ let daoTurno;
 if (MODO_EJECUCION === "online") {
     //SINGLETON
     if (!daoTurno) {
-        daoTurno = new Turno
+        daoTurno = Turno
         logger.info('Persistiendo Turnos en: MongoDB')
     }
 } else {

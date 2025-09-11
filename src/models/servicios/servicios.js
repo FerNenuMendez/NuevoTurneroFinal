@@ -10,7 +10,7 @@ let daoServicio;
 if (MODO_EJECUCION === "online") {
     //SINGLETON
     if (!daoServicio) {
-        daoServicio = new Servicio
+        daoServicio = Servicio
         logger.info('Persistiendo Servicios en: MongoDB')
     }
 } else {

@@ -5,4 +5,4 @@ export const apiRouter = Router()
 
 apiRouter.use(json())
 apiRouter.use(urlencoded({ extended: true }))
-apiRouter.use("/usuarioNegocio", usuarioNegocioRouter)  
+apiRouter.use("/usuario-negocio", usuarioNegocioRouter)  

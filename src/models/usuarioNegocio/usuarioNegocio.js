@@ -9,7 +9,7 @@ let daoUsuarioNegocio;
 if (MODO_EJECUCION === "online") {
     //SINGLETON
     if (!daoUsuarioNegocio) {
-        daoUsuarioNegocio = new UsuarioNegocio
+        daoUsuarioNegocio = UsuarioNegocio
         logger.info('Persistiendo Usuarios en: MongoDB')
     }
 } else {

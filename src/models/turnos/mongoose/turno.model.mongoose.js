@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const turnoSchema = new mongoose.Schema({
-    negocio: { type: mongoose.Schema.Types.ObjectId, ref: "UsuarioNegocio" },
+    negocioNombre: { type: mongoose.Schema.Types.ObjectId, ref: "UsuarioNegocio" },
     servicio: { type: mongoose.Schema.Types.ObjectId, ref: "Servicio" },
     clienteNombre: { type: String, required: true },
     clienteEmail: { type: String, required: true },

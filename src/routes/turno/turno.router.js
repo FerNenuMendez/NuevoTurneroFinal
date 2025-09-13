@@ -11,7 +11,7 @@ import {
 export const turnoRouter = Router();
 
 // 🔒 todas las rutas de turnos requieren negocio logueado
-turnoRouter.post("/", authMiddleware, crearTurnoController);
+turnoRouter.post("/", crearTurnoController);
 turnoRouter.get("/", authMiddleware, obtenerTurnosController);
 turnoRouter.get("/:id", authMiddleware, obtenerTurnoPorIdController);
 turnoRouter.put("/:id", authMiddleware, actualizarTurnoController);

@@ -19,7 +19,7 @@ export function authMiddleware(req, res, next) {
 
         // 💡 decoded = { id, email, nombre, iat, exp }
         req.user = decoded;
-
+        logger.info(`Usuario autenticado`);
         next();
     } catch (error) {
         logger.error(`Error en authMiddleware: ${error.message}`);

@@ -2,9 +2,10 @@ import { usuarioNegocioService } from "../service/usuarioNegocio.service.js";
 import logger from '../middlewares/logger.js'
 
 export async function registrarUsuarioNegocioController(req, res) {
-    const { nombre, email, password, direccion, telefono } = req.body;
+    const { nombre, password, nombreDelNegocio, email, direccion, telefono } = req.body;
     try {
-        const nuevoUsuario = await usuarioNegocioService.registrarUsuarioNegocio(nombre, email, password, direccion, telefono);
+        const mail = email.toLowerCase();
+        const nuevoUsuario = await usuarioNegocioService.registrarUsuarioNegocio(nombre, password, nombreDelNegocio, mail, direccion, telefono);
         logger.info("Usuario Negocio Creado:")
         logger.info(JSON.stringify(nuevoUsuario))
         res.status(201).json({ message: "Usuario Negocio registrado con éxito", usuario: nuevoUsuario });

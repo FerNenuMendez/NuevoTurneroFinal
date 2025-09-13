@@ -8,7 +8,7 @@ const daoUsuarioNegocio = getdaoUsuarioNegocio()
 
 class UsuarioNegocioService {
 
-    async registrarUsuarioNegocio(nombre, email, password, direccion, telefono) {
+    async registrarUsuarioNegocio(nombre, password, nombreDelNegocio, email, direccion, telefono) {
         try {
             const existe = await daoUsuarioNegocio.findOne({ email: email })
             if (existe) {
@@ -18,8 +18,9 @@ class UsuarioNegocioService {
             const hash = await bcrypt.hash(password, salt);
             const nuevoUsuario = {
                 nombre,
-                email,
                 passwordHash: hash,
+                nombreDelNegocio,
+                email,
                 direccion,
                 telefono
             };
@@ -37,6 +38,21 @@ class UsuarioNegocioService {
             return usuario;
         } catch (error) {
             logger.error(`Error al obtener el usuarioNegocio por email: ${error.message}`);
+            throw error;
+        }
+    }
+
+    async obtenerUsuarioNegocioPorNombre(nombre) {
+        try {
+            const usuario = await daoUsuarioNegocio.findOne({ nombreDelNegocio: nombre });
+
+            if (!usuario) {
+                throw new Error(`No se encontró un negocio con el nombre: ${nombre}`);
+            }
+
+            return usuario._id;
+        } catch (error) {
+            logger.error(`Error al obtener el usuarioNegocio por nombre: ${error.message}`);
             throw error;
         }
     }

@@ -6,19 +6,20 @@ import logger from '../middlewares/logger.js'
 export async function crearTurnoController(req, res) {
     try {
         const { negocio, servicio, clienteNombre, clienteEmail, fecha } = req.body;
-
+        logger.info("Creando turno con los datos:");
+        logger.info(JSON.stringify({ negocio, servicio, clienteNombre, clienteEmail, fecha }));
         // Validaciones básicas
         if (!negocio || !servicio || !clienteNombre || !clienteEmail || !fecha) {
             return res.status(400).json({ message: "Todos los campos son obligatorios" });
         }
 
-        const nuevoTurno = await turnoService.crearTurno({
+        const nuevoTurno = await turnoService.crearTurno(
             negocio,
             servicio,
             clienteNombre,
             clienteEmail,
             fecha
-        });
+        );
 
         logger.info("Turno creado con éxito:");
         logger.info(JSON.stringify(nuevoTurno));

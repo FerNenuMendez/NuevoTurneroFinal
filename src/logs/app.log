@@ -751,3 +751,59 @@
 2025-09-12 21:09:06 [32minfo[39m: Persistiendo Usuarios en: MongoDB
 2025-09-12 21:09:06 [32minfo[39m: Persistiendo Turnos en: MongoDB
 2025-09-12 21:09:07 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:13:28 [32minfo[39m: Cargando configuracion:
+2025-09-12 21:13:28 [32minfo[39m: Configuracion Lista
+2025-09-12 21:13:29 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-12 21:13:29 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-12 21:13:30 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:13:39 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:13:39 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:14:44 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:14:44 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:15:50 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:15:50 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:16:28 [32minfo[39m: Cargando configuracion:
+2025-09-12 21:16:28 [32minfo[39m: Configuracion Lista
+2025-09-12 21:16:29 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-12 21:16:29 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-12 21:16:30 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:16:34 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:16:34 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:17:07 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:17:07 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: nombreDelNegocio: Path `nombreDelNegocio` is required.
+2025-09-12 21:19:27 [32minfo[39m: Cargando configuracion:
+2025-09-12 21:19:27 [32minfo[39m: Configuracion Lista
+2025-09-12 21:19:28 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-12 21:19:28 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-12 21:19:30 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:19:53 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:19:53 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:20:27 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:20:27 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:20:36 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:20:36 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:20:47 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:20:47 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:21:30 [32minfo[39m: Cargando configuracion:
+2025-09-12 21:21:30 [32minfo[39m: Configuracion Lista
+2025-09-12 21:21:32 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-12 21:21:32 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-12 21:21:33 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:21:50 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:21:50 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:22:55 [32minfo[39m: Cargando configuracion:
+2025-09-12 21:22:55 [32minfo[39m: Configuracion Lista
+2025-09-12 21:22:56 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-12 21:22:56 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-12 21:22:58 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:23:01 [32minfo[39m: Cargando configuracion:
+2025-09-12 21:23:01 [32minfo[39m: Configuracion Lista
+2025-09-12 21:23:03 [32minfo[39m: Persistiendo Usuarios en: MongoDB
+2025-09-12 21:23:03 [32minfo[39m: Persistiendo Turnos en: MongoDB
+2025-09-12 21:23:04 [32minfo[39m: Base de datos conectada a MongoDB
+2025-09-12 21:23:06 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:23:06 [31merror[39m: Error en el registro del usuarioNegocio: UsuarioNegocio validation failed: telefono: Path `telefono` is required.
+2025-09-12 21:23:40 [32minfo[39m: Usuario Negocio Creado:
+2025-09-12 21:23:40 [32minfo[39m: {"nombre":"Fer","passwordHash":"$2b$10$kzWbVrjX8HRUsJgHrGyKJOhcOWmYfCq/Z9cRq1mhES2V0teHIovC2","nombreDelNegocio":"El Nenuco Loco","email":"nenu@nenu.com","direccion":"lasadasa","telefono":"1122123123","servicios":[],"extra":[],"_id":"68c4b98ced2f3392919285cd","createdAt":"2025-09-13T00:23:40.728Z","updatedAt":"2025-09-13T00:23:40.728Z","__v":0}
+2025-09-12 21:29:46 [32minfo[39m: Usuario Negocio Creado:
+2025-09-12 21:29:46 [32minfo[39m: {"nombre":"Fer","passwordHash":"$2b$10$C1APFe9.DjnqiW.OXWePZelF4qQXIuyOD8F4ifoLGJh6C0yBMNNn.","nombreDelNegocio":"El Nenuco Loco","email":"nenuco@donosor.com","direccion":"Las Tunas 4935","telefono":"1122123123","servicios":[],"extra":[],"_id":"68c4bafaed2f3392919285d0","createdAt":"2025-09-13T00:29:46.935Z","updatedAt":"2025-09-13T00:29:46.935Z","__v":0}

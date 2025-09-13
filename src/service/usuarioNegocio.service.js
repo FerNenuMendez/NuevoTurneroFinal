@@ -22,7 +22,7 @@ class UsuarioNegocioService {
                 nombreDelNegocio,
                 email,
                 direccion,
-                telefono
+                telefono,
             };
             const resultado = await daoUsuarioNegocio.create(nuevoUsuario);
             return resultado;
